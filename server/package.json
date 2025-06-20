@@ -1,10 +1,10 @@
 {
   "name": "ccm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "author": "",
+  "author": "Zihao Wu",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -23,7 +23,10 @@
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@nestjs/swagger": "^11.2.0",
+    "class-validator": "^0.14.2",
     "kysely": "^0.28.2",
+    "nestjs-kysely": "^3.0.0",
     "pg": "^8.16.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
