@@ -1,3 +1,1 @@
-export const schemaFromCode = () => {
-
-}
+export const schemaFromCode = () => {};

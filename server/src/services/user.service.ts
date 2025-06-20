@@ -1,7 +1,7 @@
-import { BadRequestException, Injectable } from "@nestjs/common";
-import { AuthDto } from "src/dtos/auth.dto";
-import { mapUser, UserResponseDto } from "src/dtos/user.dto";
-import { UserRepository } from "src/repositories/user.repository";
+import { BadRequestException, Injectable } from '@nestjs/common';
+import { AuthDto } from 'src/dtos/auth.dto';
+import { mapUser, UserResponseDto } from 'src/dtos/user.dto';
+import { UserRepository } from 'src/repositories/user.repository';
 
 @Injectable()
 export class UserService {
@@ -24,4 +24,4 @@ export class UserService {
     }
     return user;
   }
-};
+}

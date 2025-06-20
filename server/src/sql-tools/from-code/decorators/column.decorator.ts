@@ -6,9 +6,9 @@ export type ColumnOptions = {
 };
 
 export const Column = (options: ColumnOptions): ClassDecorator => {
-  return (object: Function) =>
+  return (object: object, propertyName: string | symbol) =>
     void register({
       type: 'column',
-      item: { object: object, options: options },
+      item: { object, propertyName, options },
     });
 };

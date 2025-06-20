@@ -1,4 +1,4 @@
-import { User } from "src/database";
+import { User } from 'src/database';
 
 export class UserResponseDto {
   id!: string;
@@ -12,4 +12,4 @@ export const mapUser = (entity: User): UserResponseDto => {
     name: entity.name,
     email: entity.email,
   };
-}
+};

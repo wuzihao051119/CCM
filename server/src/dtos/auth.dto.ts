@@ -1,4 +1,4 @@
-import { User } from "src/database";
+import { User } from 'src/database';
 
 export class AuthDto {
   user!: User;
